@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.media.MediaView?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="900.0">
+         <children>
+            <ImageView fitHeight="272.0" fitWidth="272.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets bottom="13.0" left="25.0" right="25.0" top="13.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@Images/icons8_Open_Book_96px_1.png" />
+               </image>
+            </ImageView>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="198.0" prefWidth="1.0" style=" -fx-background-color: #BDBDBD">
+               <HBox.margin>
+                  <Insets bottom="50.0" top="50.0" />
+               </HBox.margin>
+            </Separator>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="298.0" prefWidth="340.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="300.0" text="First Name : Hacene">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="300.0" text="Last Name : Chikh Baelhadj">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="300.0" text="Birth Date : 11/08/1994">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="300.0" text="Profission : Student">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="30.0" prefWidth="300.0" text="Company : Abou Bakr Belkaid University of Tlemcen">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </VBox>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="198.0" prefWidth="1.0" style="-fx-background-color: #BDBDBD;">
+               <HBox.margin>
+                  <Insets bottom="50.0" top="50.0" />
+               </HBox.margin>
+            </Separator>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" graphicTextGap="0.0" prefHeight="70.0" prefWidth="87.0" text="16" textAlignment="CENTER" textFill="#f20000">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="50.0" right="50.0" top="79.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Separator prefHeight="2.0" prefWidth="85.0">
+                     <VBox.margin>
+                        <Insets left="50.0" right="50.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" graphicTextGap="0.0" prefHeight="70.0" prefWidth="87.0" text="40" textAlignment="CENTER" textFill="#f20000">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="50.0" right="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1.0" prefWidth="700.0" style="-fx-background-color: #000000;">
+         <VBox.margin>
+            <Insets bottom="2.0" left="100.0" right="100.0" top="2.0" />
+         </VBox.margin>
+      </Separator>
+   </children>
+</VBox>

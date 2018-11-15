@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <HBox layoutX="306.0" layoutY="151.0" prefHeight="50.0" prefWidth="900.0" AnchorPane.bottomAnchor="510.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="140.0">
+         <children>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Current Buy">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font></JFXButton>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="30.0" prefWidth="1.0" style="-fx-background-color: #26A69A;">
+               <HBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </HBox.margin>
+            </Separator>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Pending Buy">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font></JFXButton>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="30.0" prefWidth="1.0" style="-fx-background-color: #26A69A;">
+               <HBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </HBox.margin>
+            </Separator>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Completed Buy">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font></JFXButton>
+         </children>
+      </HBox>
+      <HBox prefHeight="140.0" prefWidth="1200.0" styleClass="head-background" stylesheets="@Home.css" AnchorPane.bottomAnchor="560.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <VBox layoutY="145.0" prefHeight="560.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="900.0" AnchorPane.topAnchor="140.0">
+         <children>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1.0" prefWidth="180.0" style="-fx-background-color: #26A69A;">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" top="155.0" />
+               </VBox.margin>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Separator>
+            <JFXButton alignment="BASELINE_LEFT" cache="true" graphicTextGap="10.0" onAction="#login" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Login" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Login_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#signUp" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Sign Up">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Sign_Up_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="sellButton" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#sellProduct" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Sell a product">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Sell_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="buyProduct" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#exit" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="Buy a product">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Buy_96px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#exit" prefHeight="50.0" prefWidth="300.0" ripplerFill="#b2dfdb" text="exit">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Exit_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </JFXButton>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1.0" prefWidth="180.0" style="-fx-background-color: #26A69A;">
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" />
+               </VBox.margin>
+            </Separator>
+         </children>
+      </VBox>
+      <VBox layoutX="300.0" layoutY="190.0" prefHeight="505.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="190.0">
+         <children>
+            <ScrollPane prefHeight="505.0" prefWidth="900.0">
+               <content>
+                  <VBox fx:id="pnl_scroll" prefHeight="505.0" prefWidth="900.0" />
+               </content>
+            </ScrollPane>
+         </children></VBox>
+   </children>
+</AnchorPane>
